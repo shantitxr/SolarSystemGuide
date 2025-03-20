@@ -1,0 +1,89 @@
+/*nav bar underline*/
+.nav-link.active {
+    text-decoration: underline;
+}  
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  cite{
+    font-size: medium;
+  }
+    
+  
+  .container-fluid {
+    padding-left: 15px;
+    padding-right: 30px;
+  }
+  
+  #introPicture {
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+  
+
+.planet-img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.planet-container {
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+}
+
+.planet-img {
+    width: 150px; 
+    height: auto;
+}
+  
+img#navimg{
+  height: 40px; width: auto; margin-right: 10px;
+}
+  
+div.container{
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  
+}
+@media print{
+  div.container{
+    width: 95% !important;
+    color: black !important;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 0;
+    box-shadow: none;
+    border: none !important;
+  }
+  .ratio{
+    display: none !important
+  }
+}
+
+body{
+  background-image: url("media/bg.jpg");
+}
+
+.col-md-8{
+  width: 50%;
+}
+.col-md-4{
+  width: 24%;
+  
+}
+.content{
+  font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+}
+
+#au{
+  width: 100%;
+}
+
+
